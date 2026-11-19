@@ -32,7 +32,7 @@ README.md           이 문서
   "price": 12300,
   "priceNote": "2026-11-20 기준",
   "category": "living",
-  "platform": "쿠팡파트너스",
+  "platform": "쿠팡",
   "platformKey": "coupang",
   "ctaLabel": "가격 확인하기",
   "url": "https://link.coupang.com/a/...",
@@ -46,6 +46,7 @@ README.md           이 문서
 - `category`는 `categories`에 있는 id만: `appliance`(가전), `living`(살림/생활).
 - `price`는 숫자만(쉼표 없이). 화면에서 `2,190,000원`으로 자동 포맷됩니다.
 - `priceNote`에는 실제 확인일을 적습니다. `updatedAt`도 함께 갱신하세요.
+- `platform`에는 고객에게 보이는 쇼핑몰명만 적습니다(`네이버쇼핑`, `쿠팡`). 제휴 프로그램명(쇼핑커넥트·파트너스)은 화면에 노출하지 않습니다.
 - `platformKey`는 점 색을 정합니다: `naver` = 네이비, `coupang` = 오렌지.
 - `keywords`는 상품명에 없는 검색어(모델명·별칭·용도)를 넣는 자리입니다.
 - **확인한 가격·스펙만** 넣습니다. 확인이 안 된 값은 비워 두세요.
