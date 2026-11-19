@@ -122,18 +122,29 @@
     var priceRow = document.createElement('div');
     priceRow.className = 'card-price';
 
+    // 가격은 판매처에서 확인한 최대할인가 기준임을 화면에 드러낸다
+    var priceTag = document.createElement('span');
+    priceTag.className = 'price-tag';
+    priceTag.textContent = '최대할인가';
+    priceRow.appendChild(priceTag);
+
     var price = document.createElement('span');
     price.className = 'price-value';
     price.textContent = formatPrice(product.price);
     priceRow.appendChild(price);
-
-    if (product.priceNote) {
-      var note = document.createElement('span');
-      note.className = 'price-note';
-      note.textContent = product.priceNote;
-      priceRow.appendChild(note);
-    }
     card.appendChild(priceRow);
+
+    var metaParts = [];
+    if (typeof product.listPrice === 'number') metaParts.push('정가 ' + formatPrice(product.listPrice));
+    if (product.discountNote) metaParts.push(product.discountNote);
+    if (product.priceNote) metaParts.push(product.priceNote);
+
+    if (metaParts.length) {
+      var note = document.createElement('p');
+      note.className = 'price-note';
+      note.textContent = metaParts.join(' · ');
+      card.appendChild(note);
+    }
 
     if (product.platform) {
       var platform = document.createElement('span');
@@ -254,6 +265,7 @@
     if (data.disclosure) el.disclosure.textContent = data.disclosure;
 
     var parts = [];
+    if (data.pricePolicy) parts.push(data.pricePolicy);
     if (data.updatedAt) parts.push('가격 확인 기준일 ' + data.updatedAt);
     parts.push('표기 가격·재고는 판매처 사정에 따라 변동될 수 있습니다.');
     parts.push('링크는 제휴 링크이며, 구매 시 아이템게토가 일정액의 수수료를 받습니다.');

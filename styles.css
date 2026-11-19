@@ -297,10 +297,21 @@ body {
 
 .card-price {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
   gap: 7px;
   margin-top: 1px;
+}
+
+.price-tag {
+  display: inline-block;
+  padding: 3px 7px;
+  border-radius: 6px;
+  background: var(--yellow);
+  color: var(--navy);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: -.01em;
 }
 
 .price-value {
@@ -312,7 +323,10 @@ body {
 }
 
 .price-note {
+  display: block;
+  margin: 5px 0 0;
   font-size: 11px;
+  line-height: 1.5;
   color: var(--muted);
 }
 
