@@ -3,8 +3,8 @@
 2030 신혼부부를 위한 가성비 꿀템 큐레이션 링크·검색 페이지입니다.
 GitHub Pages로 배포되는 정적 사이트라 서버도, 유료 링크 서비스(머닝 등)도 필요 없습니다.
 
-- 라이브 주소: `https://wocks723.github.io/itemgeto-links/` (배포 후)
-- 저장소: `https://github.com/wocks723/itemgeto-links`
+- 라이브 주소: `https://itemgeto.github.io/` (배포 후)
+- 저장소: `https://github.com/itemgeto/itemgeto.github.io`
 
 ## 구조
 
