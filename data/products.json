@@ -1,0 +1,78 @@
+{
+  "brand": {
+    "name": "아이템게토",
+    "nameEn": "ItemGeto",
+    "tagline": "2030 신혼부부를 위한 가성비 꿀템 큐레이션"
+  },
+  "updatedAt": "2026-11-19",
+  "disclosure": "이 페이지에는 네이버 쇼핑 커넥트 및 쿠팡 파트너스 활동의 일환으로, 구매 발생 시 일정액의 수수료를 제공받는 링크가 포함되어 있습니다.",
+  "categories": [
+    { "id": "all", "label": "전체" },
+    { "id": "appliance", "label": "가전" },
+    { "id": "living", "label": "살림/생활" }
+  ],
+  "products": [
+    {
+      "id": "001",
+      "name": "삼성 비스포크 AI 냉장고 4도어 902L 푸드쇼케이스",
+      "model": "RM70F90M1ZD",
+      "spec": "902L · 에너지효율 1등급",
+      "price": 2190000,
+      "priceNote": "2026-11-19 기준",
+      "category": "appliance",
+      "platform": "네이버 쇼핑커넥트",
+      "platformKey": "naver",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://naver.me/x2YGV7AK",
+      "keywords": ["삼성", "비스포크", "냉장고", "4도어", "902L", "푸드쇼케이스", "AI", "비스포크 AI"]
+    },
+    {
+      "id": "002",
+      "name": "코멧 홈 단열 아일렛 암막 커튼 2개입",
+      "model": "",
+      "spec": "145×170cm · 2개입",
+      "price": 14990,
+      "priceNote": "2026-11-18 기준",
+      "category": "living",
+      "platform": "쿠팡파트너스",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iMmr2a9YBw",
+      "keywords": ["코멧", "커튼", "암막커튼", "아일렛", "단열", "거실커튼", "2개입"]
+    },
+    {
+      "id": "003",
+      "name": "피죤 건조기용 드라이시트 80매 (옐로미모사)",
+      "model": "",
+      "spec": "건조기 전용 · 80매",
+      "price": 7900,
+      "priceNote": "2026-11-19 기준",
+      "category": "living",
+      "platform": "쿠팡파트너스",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iNk4uvmVpY",
+      "keywords": ["피죤", "드라이시트", "건조기", "건조기시트", "옐로미모사", "80매", "섬유유연제"]
+    },
+    {
+      "id": "004",
+      "name": "코멧 국내생산 사계절 우레탄 문풍지 3M (5개)",
+      "model": "",
+      "spec": "문틈 바람 차단 · 3M 5개입",
+      "price": 6090,
+      "priceNote": "2026-11-18 기준",
+      "category": "living",
+      "platform": "쿠팡파트너스",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iLIbj5kvrU",
+      "keywords": ["코멧", "문풍지", "우레탄", "단열", "바람막이", "사계절", "3M", "5개"]
+    }
+  ],
+  "channels": [
+    { "label": "네이버 블로그", "url": "https://blog.naver.com/item_geto" },
+    { "label": "인스타그램", "url": "https://www.instagram.com/item_geto/" },
+    { "label": "쓰레드", "url": "https://www.threads.com/@item_geto" },
+    { "label": "유튜브", "url": "https://www.youtube.com/@item_geto" }
+  ]
+}
