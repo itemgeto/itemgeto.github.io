@@ -204,6 +204,87 @@
         "난방",
         "침구"
       ]
+    },
+    {
+      "id": "008",
+      "name": "미닉스 더플렌더 MAX 건조분쇄 음식물처리기 3L",
+      "model": "MNFD-200G",
+      "spec": "3L · 건조+분쇄 · 900W · 그레이지",
+      "price": 399000,
+      "listPrice": 759000,
+      "discountNote": "쿠팡 표시가 47% 할인 기준",
+      "priceNote": "2026-11-21 기준",
+      "category": "appliance",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iRvgTsbMd2",
+      "keywords": [
+        "미닉스",
+        "더플렌더",
+        "더 플렌더",
+        "음식물처리기",
+        "음식물처리기3L",
+        "MNFD-200G",
+        "건조분쇄",
+        "그레이지",
+        "주방가전",
+        "3L"
+      ]
+    },
+    {
+      "id": "009",
+      "name": "듀벨 수도애 세면대 정수키트 본품 2p + 필터 14p",
+      "model": "DK30-A",
+      "spec": "본품 2p + 필터 14p · 세면대용",
+      "price": 29000,
+      "listPrice": 40000,
+      "discountNote": "쿠팡 표시가 27% 할인 기준",
+      "priceNote": "2026-11-21 기준",
+      "category": "living",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iRvo9ICOho",
+      "keywords": [
+        "듀벨",
+        "수도애",
+        "정수키트",
+        "세면대정수기",
+        "세면대",
+        "DK30-A",
+        "필터",
+        "수전",
+        "정수"
+      ]
+    },
+    {
+      "id": "010",
+      "name": "보니애가구 크루저 블리넌 3세대 리클라이너 3인용 소파",
+      "model": "",
+      "spec": "3인용 · 샌드 아이보리 · W2140×D1080~1420",
+      "price": 563900,
+      "listPrice": 1619000,
+      "discountNote": "특가·쿠폰 적용가(배송·설치비 착불 별도)",
+      "priceNote": "2026-11-21 기준",
+      "category": "furniture",
+      "platform": "오늘의집",
+      "platformKey": "ohou",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://ozip.me/asw7eHV?af",
+      "keywords": [
+        "보니애가구",
+        "보니애",
+        "크루저",
+        "블리넌",
+        "리클라이너",
+        "리클라이너소파",
+        "3인용소파",
+        "슬라이딩소파",
+        "거실소파",
+        "샌드아이보리",
+        "3세대"
+      ]
     }
   ],
   "channels": [
