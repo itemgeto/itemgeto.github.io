@@ -4,13 +4,26 @@
     "nameEn": "ItemGeto",
     "tagline": "2030 신혼부부를 위한 가성비 꿀템 큐레이션"
   },
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-21",
   "pricePolicy": "표시 가격은 해당 판매처 상품 페이지에서 확인한 최대할인가(쿠폰·카드 할인 등 적용가)입니다.",
   "disclosure": "이 페이지는 제휴 마케팅 활동의 일환으로, 구매 발생 시 일정액의 수수료를 제공받는 링크를 포함하고 있습니다.",
   "categories": [
-    { "id": "all", "label": "전체" },
-    { "id": "appliance", "label": "가전" },
-    { "id": "living", "label": "살림/생활" }
+    {
+      "id": "all",
+      "label": "전체"
+    },
+    {
+      "id": "appliance",
+      "label": "가전"
+    },
+    {
+      "id": "living",
+      "label": "살림/생활"
+    },
+    {
+      "id": "furniture",
+      "label": "가구"
+    }
   ],
   "products": [
     {
@@ -27,7 +40,16 @@
       "platformKey": "naver",
       "ctaLabel": "가격 확인하기",
       "url": "https://naver.me/x2YGV7AK",
-      "keywords": ["삼성", "비스포크", "냉장고", "4도어", "902L", "푸드쇼케이스", "AI", "비스포크 AI"]
+      "keywords": [
+        "삼성",
+        "비스포크",
+        "냉장고",
+        "4도어",
+        "902L",
+        "푸드쇼케이스",
+        "AI",
+        "비스포크 AI"
+      ]
     },
     {
       "id": "002",
@@ -43,7 +65,15 @@
       "platformKey": "coupang",
       "ctaLabel": "가격 확인하기",
       "url": "https://link.coupang.com/a/iMmr2a9YBw",
-      "keywords": ["코멧", "커튼", "암막커튼", "아일렛", "단열", "거실커튼", "2개입"]
+      "keywords": [
+        "코멧",
+        "커튼",
+        "암막커튼",
+        "아일렛",
+        "단열",
+        "거실커튼",
+        "2개입"
+      ]
     },
     {
       "id": "003",
@@ -59,7 +89,15 @@
       "platformKey": "coupang",
       "ctaLabel": "가격 확인하기",
       "url": "https://link.coupang.com/a/iNk4uvmVpY",
-      "keywords": ["피죤", "드라이시트", "건조기", "건조기시트", "옐로미모사", "80매", "섬유유연제"]
+      "keywords": [
+        "피죤",
+        "드라이시트",
+        "건조기",
+        "건조기시트",
+        "옐로미모사",
+        "80매",
+        "섬유유연제"
+      ]
     },
     {
       "id": "004",
@@ -75,13 +113,88 @@
       "platformKey": "coupang",
       "ctaLabel": "가격 확인하기",
       "url": "https://link.coupang.com/a/iLIbj5kvrU",
-      "keywords": ["코멧", "문풍지", "우레탄", "단열", "바람막이", "사계절", "3M", "5개"]
+      "keywords": [
+        "코멧",
+        "문풍지",
+        "우레탄",
+        "단열",
+        "바람막이",
+        "사계절",
+        "3M",
+        "5개"
+      ]
+    },
+    {
+      "id": "005",
+      "name": "라티에 볼디아 타원형 포세린 세라믹 식탁 1600/1800",
+      "model": "",
+      "spec": "1600 타원형 · 스모키블랙",
+      "price": 215100,
+      "listPrice": 399000,
+      "discountNote": "쿠폰 적용가",
+      "priceNote": "2026-11-21 기준",
+      "category": "furniture",
+      "platform": "오늘의집",
+      "platformKey": "ohou",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://ozip.me/ZYohVLF?af",
+      "keywords": [
+        "라티에",
+        "볼디아",
+        "식탁",
+        "세라믹",
+        "포세린",
+        "타원형",
+        "타원",
+        "1600",
+        "1800",
+        "4인식탁",
+        "6인식탁",
+        "스모키블랙"
+      ]
+    },
+    {
+      "id": "006",
+      "name": "1+1 아베니 식탁의자 기능성 페브릭 3컬러",
+      "model": "",
+      "spec": "1+1 (2개) · W47·D49·H82cm",
+      "price": 98100,
+      "listPrice": 199000,
+      "discountNote": "쿠폰 적용가",
+      "priceNote": "2026-11-21 기준",
+      "category": "furniture",
+      "platform": "오늘의집",
+      "platformKey": "ohou",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://ozip.me/AxH3Aey?af",
+      "keywords": [
+        "아베니",
+        "식탁의자",
+        "의자",
+        "다이닝체어",
+        "1+1",
+        "페브릭",
+        "4인",
+        "아이보리블랙"
+      ]
     }
   ],
   "channels": [
-    { "label": "네이버 블로그", "url": "https://blog.naver.com/item_geto" },
-    { "label": "인스타그램", "url": "https://www.instagram.com/item_geto/" },
-    { "label": "쓰레드", "url": "https://www.threads.com/@item_geto" },
-    { "label": "유튜브", "url": "https://www.youtube.com/@item_geto" }
+    {
+      "label": "네이버 블로그",
+      "url": "https://blog.naver.com/item_geto"
+    },
+    {
+      "label": "인스타그램",
+      "url": "https://www.instagram.com/item_geto/"
+    },
+    {
+      "label": "쓰레드",
+      "url": "https://www.threads.com/@item_geto"
+    },
+    {
+      "label": "유튜브",
+      "url": "https://www.youtube.com/@item_geto"
+    }
   ]
 }
