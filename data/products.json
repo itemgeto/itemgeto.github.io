@@ -177,6 +177,33 @@
         "4인",
         "아이보리블랙"
       ]
+    },
+    {
+      "id": "007",
+      "name": "한일의료기 탄소열선 고급 전기요 HL-D205(25) 북극곰",
+      "model": "HL-D205(25)",
+      "spec": "M 100×180cm · 타이머·과열방지·세탁 가능",
+      "price": 30900,
+      "listPrice": 39680,
+      "discountNote": "쿠팡 판매가 22% 할인 기준(첫구매 쿠폰 별도)",
+      "priceNote": "2026-11-21 기준",
+      "category": "living",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iRlbXQALee",
+      "keywords": [
+        "한일의료기",
+        "전기요",
+        "전기매트",
+        "탄소열선",
+        "HL-D205",
+        "북극곰",
+        "1인용",
+        "겨울",
+        "난방",
+        "침구"
+      ]
     }
   ],
   "channels": [
