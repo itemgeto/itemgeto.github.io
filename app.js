@@ -76,6 +76,27 @@
     });
   }
 
+  /* ---------- analytics (GA4) ---------- */
+
+  // 상품 카드의 '가격 확인하기' 클릭을 GA4 이벤트로 보낸다.
+  // gtag가 없으면(스크립트 차단·미설치) 조용히 넘어간다.
+  function trackProductClick(product) {
+    if (typeof window.gtag !== 'function') return;
+    var params = {
+      product_id: product.id,
+      product_title: product.name,
+      merchant: product.platform || '',
+      item_category: state.categoryLabels[product.category] || product.category || '',
+      link_url: product.url || '',
+      transport_type: 'beacon'
+    };
+    if (typeof product.price === 'number') {
+      params.value = product.price;
+      params.currency = 'KRW';
+    }
+    window.gtag('event', 'product_click', params);
+  }
+
   /* ---------- rendering ---------- */
 
   function buildCard(product) {
@@ -170,6 +191,10 @@
     arrow.setAttribute('aria-hidden', 'true');
     arrow.textContent = '→';
     cta.appendChild(arrow);
+
+    cta.addEventListener('click', function () {
+      trackProductClick(product);
+    });
 
     actions.appendChild(cta);
     card.appendChild(actions);

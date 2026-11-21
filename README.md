@@ -75,6 +75,15 @@ README.md           이 문서
 - 대가성 고지문은 **첫 상품 링크보다 위**에 항상 노출됩니다(`index.html`의 `.disclosure`). 구조를 바꿀 때도 이 위치를 지키세요.
 - 제휴 링크에는 `rel="sponsored nofollow noopener"`가 붙어 있습니다.
 
+## 방문자·클릭 집계 (GA4)
+
+Google Analytics 4 무료 속성으로 일별·주별·달별 방문자와 상품 클릭을 집계합니다.
+
+- 계정 `ItemGeto` / 속성 `게토픽 (Geto Pick)` / 측정 ID **`G-W3CVF63DH7`** (계정 `itemgeto@gmail.com` 소유)
+- `index.html` `<head>`의 gtag.js 스니펫이 페이지 조회수를 보냅니다. **측정 ID를 바꿀 때는 이 파일 두 곳**(`gtag/js?id=…`, `gtag('config', '…')`)만 고치면 됩니다.
+- 상품 카드의 `가격 확인하기`를 누르면 `app.js`가 `product_click` 이벤트를 보냅니다. 매개변수: `product_id`, `product_title`, `merchant`, `item_category`, `link_url`, `value`, `currency`(KRW).
+- 보고서: 실시간은 `보고서 > 실시간`, 일별·주별·달별 방문자는 `보고서 > 참여도 > 개요`(기간 선택), 상품별 클릭은 `탐색`에서 측정기준 `product_id`·`product_title`로 분석합니다.
+
 ## 로컬에서 보기
 
 ```bash
