@@ -1,4 +1,4 @@
-/* ItemGeto · items page
+/* 게토픽(Geto Pick) · items page
  * data/products.json 하나만 고치면 목록이 바뀝니다.
  * 구조: { brand, updatedAt, disclosure, categories[], products[], channels[] }
  */
@@ -268,7 +268,7 @@
     if (data.pricePolicy) parts.push(data.pricePolicy);
     if (data.updatedAt) parts.push('가격 확인 기준일 ' + data.updatedAt);
     parts.push('표기 가격·재고는 판매처 사정에 따라 변동될 수 있습니다.');
-    parts.push('링크는 제휴 링크이며, 구매 시 아이템게토가 일정액의 수수료를 받습니다.');
+    parts.push('링크는 제휴 링크이며, 구매 시 게토픽이 일정액의 수수료를 받습니다.');
     el.footerNote.textContent = parts.join(' · ');
   }
 
