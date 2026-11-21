@@ -285,6 +285,33 @@
         "샌드아이보리",
         "3세대"
       ]
+    },
+    {
+      "id": "011",
+      "name": "삼성 비스포크 AI 원바디 세탁기 25kg + 건조기 22kg",
+      "model": "WF2522HDEEE",
+      "spec": "세탁 25kg · 건조 22kg",
+      "price": 2739000,
+      "discountNote": "삼성공식인증점 회산디지털 표시가·무료배송(설치비 없음)",
+      "priceNote": "2026-11-18 기준",
+      "category": "appliance",
+      "platform": "네이버쇼핑",
+      "platformKey": "naver",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://naver.me/x3cnWUjU",
+      "keywords": [
+        "삼성",
+        "비스포크",
+        "원바디",
+        "세탁기",
+        "건조기",
+        "세탁건조기",
+        "WF2522HDEEE",
+        "25kg",
+        "22kg",
+        "직렬형",
+        "그레이지"
+      ]
     }
   ],
   "channels": [
