@@ -4,7 +4,7 @@
     "nameEn": "Geto Pick",
     "tagline": "2030 신혼부부를 위한 가성비 꿀템 큐레이션"
   },
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "pricePolicy": "표시 가격은 해당 판매처 상품 페이지에서 확인한 최대할인가(쿠폰·카드 할인 등 적용가)입니다.",
   "disclosure": "이 페이지는 제휴 마케팅 활동의 일환으로, 구매 발생 시 일정액의 수수료를 제공받는 링크를 포함하고 있습니다.",
   "categories": [
@@ -312,6 +312,34 @@
         "22kg",
         "직렬형",
         "그레이지"
+      ]
+    },
+    {
+      "id": "012",
+      "name": "유한락스 세탁조 세정제 500ml 4개",
+      "model": "",
+      "spec": "500ml × 4개 · 통세척 4회분",
+      "price": 11690,
+      "listPrice": 18000,
+      "discountNote": "쿠팡 판매가 35% 할인",
+      "priceNote": "2026-11-22 기준",
+      "category": "living",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iSjdOXWWke",
+      "keywords": [
+        "유한락스",
+        "세탁조세정제",
+        "세탁조클리너",
+        "통세척",
+        "세탁기청소",
+        "세탁기냄새",
+        "곰팡이제거",
+        "살균",
+        "500ml",
+        "4개",
+        "신혼집살림"
       ]
     }
   ],
