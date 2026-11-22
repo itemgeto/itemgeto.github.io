@@ -341,6 +341,34 @@
         "4개",
         "신혼집살림"
       ]
+    },
+    {
+      "id": "013",
+      "name": "필립스 보풀제거기 GC-026 블루",
+      "model": "GC-026",
+      "spec": "3중날 · 건전지식 · 가정용",
+      "price": 11610,
+      "listPrice": 25000,
+      "discountNote": "쿠팡 판매가 53% 할인",
+      "priceNote": "2026-11-22 기준",
+      "category": "living",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iSZ1pHy9dI",
+      "keywords": [
+        "필립스",
+        "보풀제거기",
+        "보풀",
+        "GC-026",
+        "니트보풀",
+        "겨울니트",
+        "의류관리",
+        "3중날",
+        "건전지식",
+        "가정용",
+        "신혼집살림"
+      ]
     }
   ],
   "channels": [
