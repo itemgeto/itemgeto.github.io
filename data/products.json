@@ -4,7 +4,7 @@
     "nameEn": "Geto Pick",
     "tagline": "2030 신혼부부를 위한 가성비 꿀템 큐레이션"
   },
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "pricePolicy": "표시 가격은 해당 판매처 상품 페이지에서 확인한 최대할인가(쿠폰·카드 할인 등 적용가)입니다.",
   "disclosure": "이 페이지는 제휴 마케팅 활동의 일환으로, 구매 발생 시 일정액의 수수료를 제공받는 링크를 포함하고 있습니다.",
   "categories": [
@@ -396,6 +396,34 @@
         "수납",
         "패딩보관",
         "신혼집살림"
+      ]
+    },
+    {
+      "id": "015",
+      "name": "클래파 DC모터 다용도 미니 핸디형 무선청소기, 그레이",
+      "model": "BVC-H10",
+      "spec": "무선 · 헤파필터 · 사용시간 20분 · 45W",
+      "price": 35890,
+      "listPrice": 59900,
+      "discountNote": "쿠팡 판매가 40% 할인",
+      "priceNote": "2026-11-24 기준",
+      "category": "appliance",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iVspGUCZAO",
+      "keywords": [
+        "클래파",
+        "핸디청소기",
+        "미니청소기",
+        "무선청소기",
+        "BVC-H10",
+        "소파청소",
+        "침구청소",
+        "헤파필터",
+        "미세먼지",
+        "신혼집살림",
+        "원룸청소"
       ]
     }
   ],
