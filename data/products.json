@@ -482,6 +482,35 @@
         "신혼주방",
         "신혼집살림"
       ]
+    },
+    {
+      "id": "018",
+      "name": "탐사 원터치 접이식 철재 트롤리, 화이트, 3단",
+      "model": "",
+      "spec": "철재 · 3단 · 원터치 접이식(조립 최소) · 바퀴 4개 · 손잡이 핸들",
+      "price": 19290,
+      "listPrice": 30000,
+      "discountNote": "쿠팡 판매가 35% 할인",
+      "priceNote": "2026-11-26 기준",
+      "category": "furniture",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/iZGdzezCZE",
+      "keywords": [
+        "탐사",
+        "트롤리",
+        "접이식트롤리",
+        "이동식트롤리",
+        "원터치트롤리",
+        "수납트롤리",
+        "3단트롤리",
+        "세탁실정리",
+        "주방수납",
+        "욕실수납",
+        "신혼집수납",
+        "신혼집살림"
+      ]
     }
   ],
   "channels": [
