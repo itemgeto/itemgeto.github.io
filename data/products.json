@@ -4,7 +4,7 @@
     "nameEn": "Geto Pick",
     "tagline": "2030 신혼부부를 위한 가성비 꿀템 큐레이션"
   },
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "pricePolicy": "표시 가격은 해당 판매처 상품 페이지에서 확인한 최대할인가(쿠폰·카드 할인 등 적용가)입니다.",
   "disclosure": "제휴 링크를 통해 구매 시 일정액의 수수료를 제공받습니다.",
   "categories": [
@@ -617,6 +617,38 @@
       ],
       "catLabel": "살림",
       "image": "assets/products/020.jpg",
+      "popular": false
+    },
+    {
+      "id": "021",
+      "name": "락앤락 튼튼한 빨래건조대, 블랙",
+      "model": "ETM542",
+      "spec": "Y자형 접이식 · 확장형 1570 x 610 x 1000 mm · 철제 · 약 3.5kg · 조립 불필요",
+      "price": 38220,
+      "listPrice": 38220,
+      "discountNote": "쿠팡 판매가 38,220원 (정가와 동일)",
+      "priceNote": "2026-11-28 기준",
+      "category": "living",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/i16g5lbUUC",
+      "keywords": [
+        "락앤락",
+        "빨래건조대",
+        "접이식빨래건조대",
+        "Y형건조대",
+        "확장형건조대",
+        "이불건조대",
+        "실내건조",
+        "실내빨래건조대",
+        "빨래건조",
+        "세탁건조대",
+        "신혼집살림",
+        "겨울빨래"
+      ],
+      "catLabel": "살림",
+      "image": "assets/products/021.jpg",
       "popular": false
     }
   ],
