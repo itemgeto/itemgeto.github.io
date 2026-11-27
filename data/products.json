@@ -17,12 +17,16 @@
       "label": "가전"
     },
     {
-      "id": "living",
-      "label": "살림/생활"
+      "id": "kitchen",
+      "label": "주방"
     },
     {
       "id": "furniture",
       "label": "가구"
+    },
+    {
+      "id": "living",
+      "label": "살림"
     }
   ],
   "products": [
@@ -49,7 +53,10 @@
         "푸드쇼케이스",
         "AI",
         "비스포크 AI"
-      ]
+      ],
+      "catLabel": "가전",
+      "image": "assets/products/001.jpg",
+      "popular": true
     },
     {
       "id": "002",
@@ -73,7 +80,9 @@
         "단열",
         "거실커튼",
         "2개입"
-      ]
+      ],
+      "catLabel": "생활용품",
+      "image": "assets/products/002.jpg"
     },
     {
       "id": "003",
@@ -97,7 +106,9 @@
         "옐로미모사",
         "80매",
         "섬유유연제"
-      ]
+      ],
+      "catLabel": "생활용품",
+      "image": "assets/products/003.jpg"
     },
     {
       "id": "004",
@@ -122,7 +133,9 @@
         "사계절",
         "3M",
         "5개"
-      ]
+      ],
+      "catLabel": "생활용품",
+      "image": "assets/products/004.jpg"
     },
     {
       "id": "005",
@@ -151,7 +164,9 @@
         "4인식탁",
         "6인식탁",
         "스모키블랙"
-      ]
+      ],
+      "catLabel": "가구",
+      "image": "assets/products/005.jpg"
     },
     {
       "id": "006",
@@ -176,7 +191,9 @@
         "페브릭",
         "4인",
         "아이보리블랙"
-      ]
+      ],
+      "catLabel": "가구",
+      "image": "assets/products/006.jpg"
     },
     {
       "id": "007",
@@ -187,7 +204,7 @@
       "listPrice": 39680,
       "discountNote": "쿠팡 판매가 22% 할인 기준(첫구매 쿠폰 별도)",
       "priceNote": "2026-11-21 기준",
-      "category": "living",
+      "category": "appliance",
       "platform": "쿠팡",
       "platformKey": "coupang",
       "ctaLabel": "가격 확인하기",
@@ -203,7 +220,9 @@
         "겨울",
         "난방",
         "침구"
-      ]
+      ],
+      "catLabel": "가전",
+      "image": "assets/products/007.jpg"
     },
     {
       "id": "008",
@@ -230,7 +249,9 @@
         "그레이지",
         "주방가전",
         "3L"
-      ]
+      ],
+      "catLabel": "가전",
+      "image": "assets/products/008.jpg"
     },
     {
       "id": "009",
@@ -256,7 +277,9 @@
         "필터",
         "수전",
         "정수"
-      ]
+      ],
+      "catLabel": "생활용품",
+      "image": "assets/products/009.jpg"
     },
     {
       "id": "010",
@@ -284,7 +307,9 @@
         "거실소파",
         "샌드아이보리",
         "3세대"
-      ]
+      ],
+      "catLabel": "가구",
+      "image": "assets/products/010.jpg"
     },
     {
       "id": "011",
@@ -312,7 +337,9 @@
         "22kg",
         "직렬형",
         "그레이지"
-      ]
+      ],
+      "catLabel": "가전",
+      "image": "assets/products/011.jpg"
     },
     {
       "id": "012",
@@ -340,7 +367,9 @@
         "500ml",
         "4개",
         "신혼집살림"
-      ]
+      ],
+      "catLabel": "생활용품",
+      "image": "assets/products/012.jpg"
     },
     {
       "id": "013",
@@ -351,7 +380,7 @@
       "listPrice": 25000,
       "discountNote": "쿠팡 판매가 53% 할인",
       "priceNote": "2026-11-22 기준",
-      "category": "living",
+      "category": "appliance",
       "platform": "쿠팡",
       "platformKey": "coupang",
       "ctaLabel": "가격 확인하기",
@@ -368,7 +397,9 @@
         "건전지식",
         "가정용",
         "신혼집살림"
-      ]
+      ],
+      "catLabel": "가전",
+      "image": "assets/products/013.jpg"
     },
     {
       "id": "014",
@@ -396,7 +427,9 @@
         "수납",
         "패딩보관",
         "신혼집살림"
-      ]
+      ],
+      "catLabel": "생활용품",
+      "image": "assets/products/014.jpg"
     },
     {
       "id": "015",
@@ -424,7 +457,9 @@
         "미세먼지",
         "신혼집살림",
         "원룸청소"
-      ]
+      ],
+      "catLabel": "가전",
+      "image": "assets/products/015.jpg"
     },
     {
       "id": "016",
@@ -452,7 +487,10 @@
         "니트옷걸이",
         "옷장수납",
         "신혼집살림"
-      ]
+      ],
+      "catLabel": "생활용품",
+      "image": "assets/products/016.jpg",
+      "popular": true
     },
     {
       "id": "017",
@@ -463,7 +501,7 @@
       "listPrice": 15690,
       "discountNote": "쿠팡 판매가 19% 할인",
       "priceNote": "2026-11-26 기준",
-      "category": "living",
+      "category": "kitchen",
       "platform": "쿠팡",
       "platformKey": "coupang",
       "ctaLabel": "가격 확인하기",
@@ -481,7 +519,9 @@
         "프라이팬코팅",
         "신혼주방",
         "신혼집살림"
-      ]
+      ],
+      "catLabel": "주방용품",
+      "image": "assets/products/017.jpg"
     },
     {
       "id": "018",
@@ -510,7 +550,10 @@
         "욕실수납",
         "신혼집수납",
         "신혼집살림"
-      ]
+      ],
+      "catLabel": "가구",
+      "image": "assets/products/018.jpg",
+      "popular": true
     },
     {
       "id": "019",
@@ -521,7 +564,7 @@
       "listPrice": 99800,
       "discountNote": "쿠팡 판매가 79% 할인",
       "priceNote": "2026-11-27 기준",
-      "category": "living",
+      "category": "kitchen",
       "platform": "쿠팡",
       "platformKey": "coupang",
       "ctaLabel": "가격 확인하기",
@@ -539,7 +582,10 @@
         "싱크대정리",
         "신혼주방",
         "신혼집살림"
-      ]
+      ],
+      "catLabel": "주방용품",
+      "image": "assets/products/019.jpg",
+      "popular": true
     }
   ],
   "channels": [
