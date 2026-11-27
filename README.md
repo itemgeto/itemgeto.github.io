@@ -9,11 +9,13 @@ GitHub Pages로 배포되는 정적 사이트라 서버도, 유료 링크 서비
 ## 구조
 
 ```
-index.html          화면 뼈대 (헤더·대가성 고지·검색·목록·푸터)
-styles.css          디자인 (브랜드 팔레트, 모바일 퍼스트)
-app.js              목록 렌더링·검색·카테고리 필터
-data/products.json  상품 데이터 (여기만 고치면 목록이 바뀝니다)
-README.md           이 문서
+index.html            화면 뼈대 (헤더·배너·대가성 고지·카테고리 바·인기/상품 섹션·푸터·하단 탭바)
+styles.css            디자인 (브랜드 팔레트, 모바일 퍼스트, 2열 카드 그리드)
+app.js                목록 렌더링·검색·카테고리 필터·정렬·찜(로컬 저장)·GA4 product_click
+data/products.json    상품 데이터 (여기만 고치면 목록이 바뀝니다)
+assets/               배너·로고·파비콘
+assets/products/      상품 메인 이미지 (001.jpg ~ 019.jpg, 정사각 800×800)
+README.md             이 문서
 ```
 
 `index.html`은 GitHub Pages가 루트(`main` 브랜치 `/`)에서 그대로 서빙합니다.
@@ -33,7 +35,10 @@ README.md           이 문서
   "listPrice": 15900,
   "discountNote": "첫구매 쿠폰 적용가",
   "priceNote": "2026-11-20 기준",
-  "category": "living",
+  "category": "kitchen",
+  "catLabel": "주방용품",
+  "image": "assets/products/005.jpg",
+  "popular": true,
   "platform": "쿠팡",
   "platformKey": "coupang",
   "ctaLabel": "가격 확인하기",
@@ -45,8 +50,11 @@ README.md           이 문서
 규칙:
 
 - `id`는 세 자리 번호(`001`부터). 카드 배지에 그대로 노출되고, 검색창에 `001`을 치면 그 상품만 남습니다.
-- `category`는 `categories`에 있는 id만: `appliance`(가전), `living`(살림/생활).
-- `price`는 숫자만(쉼표 없이). **판매처에서 확인한 최대할인가**를 적고, 화면에는 `최대할인가` 배지와 함께 `2,190,000원`처럼 자동 포맷됩니다.
+- `category`는 `categories`에 있는 id만: `appliance`(가전), `kitchen`(주방), `furniture`(가구), `living`(살림).
+- `catLabel`은 카드 라벨(`NO. 005 · 주방용품`)에 쓰는 짧은 이름입니다(가전 / 주방용품 / 가구 / 생활용품).
+- `image`는 카드 메인 이미지 경로입니다. `assets/products/{id}.jpg` 규칙으로 저장하고, 없으면 같은 경로를 자동으로 찾습니다(정사각 800×800, 흰 배경).
+- `popular: true`인 상품은 상단 `인기 꿀템` 섹션에 노출됩니다. 지금은 대표 상품 4개(001·016·018·019)로 두었고, GA4 `product_click` 순위가 쌓이면 이 플래그만 옮기면 됩니다.
+- `price`는 숫자만(쉼표 없이). **판매처에서 확인한 최대할인가**를 적고, 화면에는 `2,190,000원`처럼 자동 포맷되고, `listPrice`가 있으면 그 옆에 취소선 정가로 함께 보입니다.
 - **가격은 판매처 상품 페이지에서 직접 확인된 최대할인가 기준으로 적습니다.** 쿠폰·카드 할인·첫구매 쿠폰 등이 적용된 실제 표시가를 확인해 그 금액을 `price`에 넣고, 할인 조건은 `discountNote`에 짧게 적습니다(예: `쿠폰·카드 할인 기준`, `와우할인 기준`, `첫구매 쿠폰 적용가`). 확인되지 않은 할인가는 추측해서 적지 않습니다.
 - `listPrice`에는 판매처가 함께 표시하는 할인 전 가격(정가)을 숫자로 넣습니다. 화면에는 `정가 …`로 함께 노출됩니다. 확인되지 않으면 비워 두세요.
 - `discountNote`는 그 최대할인가가 어떤 조건의 금액인지 짧게 적는 자리입니다. 실제로 확인된 조건만 적습니다.
