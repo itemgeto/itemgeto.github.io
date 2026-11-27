@@ -586,6 +586,38 @@
       "catLabel": "주방용품",
       "image": "assets/products/019.jpg",
       "popular": true
+    },
+    {
+      "id": "020",
+      "name": "노바리빙 LED 무선 충전식 센서등 210mm, 전구색, 2개",
+      "model": "210mm photosensitive induction lamp",
+      "spec": "LED 3W · 210mm · 전구색 · 충전식 부착형 · 2개입",
+      "price": 17200,
+      "listPrice": 17200,
+      "discountNote": "쿠팡 판매가 17,200원 (정가와 동일)",
+      "priceNote": "2026-11-27 기준",
+      "category": "living",
+      "platform": "쿠팡",
+      "platformKey": "coupang",
+      "ctaLabel": "가격 확인하기",
+      "url": "https://link.coupang.com/a/i1kNbNndrU",
+      "keywords": [
+        "노바리빙",
+        "센서등",
+        "무선센서등",
+        "충전식센서등",
+        "LED센서등",
+        "현관센서등",
+        "복도센서등",
+        "붙이는센서등",
+        "무드등",
+        "야간조명",
+        "신혼집조명",
+        "신혼집살림"
+      ],
+      "catLabel": "살림",
+      "image": "assets/products/020.jpg",
+      "popular": false
     }
   ],
   "channels": [
